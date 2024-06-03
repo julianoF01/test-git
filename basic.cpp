@@ -2,7 +2,9 @@
 
 
 void sayHello(){
-	// ainda falta implementar
+	
+	printf("ola mundo");
+
 }
 
 
