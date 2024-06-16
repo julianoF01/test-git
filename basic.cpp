@@ -16,6 +16,12 @@ void contarNumeros(int num){
 
 }
 
+void mostrarDados(){
+
+	cout << "dados";
+
+}
+
 int main(){
 	
 	sayHello();
