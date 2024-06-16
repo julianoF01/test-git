@@ -10,8 +10,10 @@ void sayHello(){
 
 void contarNumeros(int num){
 
-	for(int i = 0; i < num; i++){
-		cout << i + 1;
+	int i = 1;
+	while (i <= num){
+		cout << i << endl;
+		i++;
 	}
 
 }
