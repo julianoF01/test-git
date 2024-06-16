@@ -1,5 +1,6 @@
 #include <iostream>
 
+using namespace std;
 
 void sayHello(){
 	
@@ -7,10 +8,19 @@ void sayHello(){
 
 }
 
+void contarNumeros(int num){
+
+	for(int i = 0; i < num; i++){
+		cout << i + 1;
+	}
+
+}
 
 int main(){
 	
 	sayHello();
+
+	contarNumeros(10);
 	
 	
 	return 0;
